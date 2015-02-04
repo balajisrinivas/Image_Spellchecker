@@ -132,10 +132,8 @@ public class JazzySpellChecker implements SpellCheckListener
  
  public static void main(String[] args) 
  {
- // JazzySpellChecker jazzySpellChecker = new JazzySpellChecker();
- // String line = jazzySpellChecker.getCorrectedLine("The foox ran oveer the tableee");
- // System.out.println(line);
+  JazzySpellChecker jazzySpellChecker = new JazzySpellChecker();
+  String line = jazzySpellChecker.getCorrectedLine("The foox ran oveer the tableee");
+  System.out.println(line);
  }
 }
- 
-//</string></string></word></string></word></string></string></string></string></string>
